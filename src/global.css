@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --twitter-blue: #1da1f2;
+  --white-text: #fff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #0f1419;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+textarea,
+button {
+  font: 400 1.6rem "Poppins", sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
