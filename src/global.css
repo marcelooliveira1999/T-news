@@ -32,3 +32,9 @@ button {
 a {
   color: inherit;
 }
+
+/* Utility Classes */
+
+.active {
+  color: var(--twitter-blue);
+}

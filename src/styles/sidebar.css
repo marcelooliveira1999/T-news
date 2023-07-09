@@ -47,8 +47,14 @@
 .navButtonsContainer a {
   font-size: 2rem;
   font-weight: 700;
+  text-decoration: none;
 
   display: flex;
   align-items: center;
   gap: 2rem;
+}
+
+.navButtonsContainer a svg {
+  width: 3.2rem;
+  height: 3.2rem;
 }
