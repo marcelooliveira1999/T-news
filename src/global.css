@@ -38,3 +38,24 @@ a {
 .active {
   color: var(--twitter-blue);
 }
+
+.tweeterButtons {
+  background: var(--twitter-blue);
+  color: var(--white-text);
+
+  border: none;
+  border-radius: 99px;
+
+  display: flex;
+  justify-content: center;
+
+  transition: 500ms;
+}
+
+.separator {
+  height: 1rem;
+
+  background: #f7f9fa;
+  border-top: 1px solid #ebeef0;
+  border-bottom: 1px solid #ebeef0;
+}

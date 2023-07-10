@@ -2,3 +2,68 @@
   border-left: 0.1rem solid #ebeef8;
   border-right: 0.1rem solid #ebeef8;
 }
+
+/* TimeLineHeader Styles */
+
+.timeLineHeader {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 2.4rem 2rem;
+  border-bottom: 0.1rem solid #ebeef8;
+}
+
+.timeLineHeader svg {
+  height: 2.4rem;
+  width: 2.4rem;
+
+  color: var(--twitter-blue);
+}
+
+/* NewTweetForm Styles */
+
+.newTweetForm {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+
+  padding: 2.4rem 2rem;
+}
+
+.newTweet {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.newTweet textarea {
+  flex: 1;
+
+  font-size: 2rem;
+  font-weight: 500;
+
+  border: none;
+  margin-top: 1.2rem;
+
+  resize: none;
+  outline: none;
+}
+
+.newTweet textarea::placeholder {
+  color: #5b7083;
+}
+
+#userImage {
+  width: 5.6rem;
+  height: 5.6rem;
+
+  border-radius: 99%;
+}
+
+.newTweetForm button[type="submit"] {
+  margin-left: auto;
+  padding: 0.75rem 2rem;
+}
+
+.newTweetForm button[type="submit"]:hover {
+  filter: brightness(0.75);
+}
